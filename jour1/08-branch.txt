@@ -1,0 +1,43 @@
+git log --oneline
+git reset <id log oneline> (pour revenir en arrière, mais compliqué de récupérer si erreur de suppression)
+
+=> au lieu d'utiliser get reset
+// il est conseillé d'utiliser git branch
+
+// jusqu'à maintenant
+
+git add
+git commit
+
+// ont été réalisés sur la branche principale du projet
+ "master" ou "main"
+
+ => sur la branche main => créer une branche parallèle
+ en lui donnant un numéroducommit
+
+ travailler et réaliser des add et des commit
+
+ et si on n'est pas content, on peut couper la branche
+ si on est content, on peut la fusionner avec la branche principale (pb de conflit éventuel)
+
+0------------------------------------------
+Vérifier que l'ensemble des fichiers soient commit sur la branch principal
+
+1------------------------------------------
+ git branch menu // permet de créer la branch menu (monde parallèle à la branch principale)
+ git checkout menu // permet de se déplacer de la branch principale vers la branch menu
+
+2----------------------------------------------
+ travailler
+ git add et git commit sur cette branch
+
+3a--------------------------------------------
+ si on est content
+ git checkout master (ou main) // revenir sur la branch principale
+ git merge menu // fusionner les 2 branch
+ git branch -d menu // supprimer la branch menu
+
+3b--------------------------------------------
+ si on n'est pas content
+ git checkout master (ou main) // revenir sur la branch principale
+ git branch -D menu // supprimer la branch menu
