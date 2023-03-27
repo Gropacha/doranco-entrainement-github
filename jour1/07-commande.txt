@@ -1,0 +1,25 @@
+git log => la liste de tous les commit
+
+lettre 'q' => libérer le terminal
+
+git log --oneline => version plus compacte du git log
+id version courte hexadécimal
+
+revenir dans le passé
+
+-------------------------
+
+git diff : connaître les différences entre le repo et le projet
+pour tous les fichies qui ne sont pas encore add
+
+git diff jour1/07-commande.txt
+
+-------------------------------
+
+commande qui permet de naviguer entre les commits
+revenir dans le passé (revenir dans les précédents commit)
+
+git log --oneline
+
+git checkout
+
