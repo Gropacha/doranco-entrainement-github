@@ -1,0 +1,66 @@
+Présentation
+
+Git => logiciel qui permet de réaliser du VERSIONNING de votre code
+Git => logicile qui fait partie de la palette d'outil de l'informaticien
+
+cet outil => permet de garder une trace dans l'ordinateur de toutes
+les versions de votre code
+
+Il va permettre d'éviter de dupliquer du code pour garder une trace
+(une archive des anciennes versions)
+
+projet de site internet avec javascript
+
+index.html => écrire du html dedans => enregistrer
+index.html => ajouter une barre de menu => enregistrer
+index.html => correction de la largeur d'un élément => enregistrer
+
+=> je vais garder une copie du fichier index.html en PLUS pour au cas où
+je n'arrive plus à avancer => revenir en arrière à cette version qui fonctionne
+
+=> 1 seule personne :Exemple de versionning fait à la main, gérable pour une seule personne :
+(ce n'est pas optimal MAIS encore gérable)
+index.html
+index-v0.html
+index-03-2023.html
+
+=> si plusieurs développeurs sur le même projet
+index.html
+index-v0-Alain.html
+.......
+
+index-v2-Celine.html
+.......
+
+=> comment réconciler le travail de 2 ou plus de développeurs
+=> l'un des développeurs veut récupérer le travail de l'autre (par email / clef usb/ wetransfer)
+=> regarder ligne par ligne (garder les noveautés)=>fusion avec son travail !
+=> très FASTIDIEUX !!!
+
+l'outil de VERSIONNING va jouer un rôle majeur
+
+=>permet de garder une copie de chaque version du projet
+=>permet de réconcilier une copie du projet réalisé par un autre développeurs
+
+COMMENT? => en répondant à 4 questions
+- qui (réalise la modification)?
+- quand (saisir des commandes et datées et horodatées)?
+- pourquoi (raison : mini explication de l'ajout de code)?
+- où (quel fichier / quel dossier / quelle ligne a été ajoutée, modifiée...)?
+
+utile à plusieurs / seul c'est bien aussi
+
+=> créateur de git => Linus Torvald (le créateur de Linux)
+
+=> avant git => SVN l'outil avant Git
+=> Linus Torvald utilisait SVN professionnellement (très très lent) => horreur pour gérer
+la création et la maintenance => ces collègues lui envoient par email le code
+il était chargé manuellement de réconcilier le noyau de Linux
+
+=> il a créé Git pour se facilité la tâche
+=> révolutionnaire : changé la manière de travailler avec le code
+
+=> ATTENTION ATTENTION : il ne faut pas confondre git (outil installé sur un ordinateur)
+et github (site internet dans lequel on va pouvoir partagé notre code)
+
+ces deux outils collobarent étroitement ensemble MAIS ce sont bien 2 entités séparées

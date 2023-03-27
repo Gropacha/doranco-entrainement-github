@@ -1,0 +1,15 @@
+aller sur le lien suivant :
+https://git-scm.com/download/win
+
+version 2.40.0 27mars2023
+
+windows / mac OS => Dans Visual Studio code
+=> il y a un terminal disponible
+Dans la barre de menu en haut : new terminal
+dans l'invite de commande :
+git --versionning
+git version 2.40.0.windows.1
+
+=> dans un ordinateur (windows)=>il y a plusieurs terminal
+cmd => invite de commande
+et powershell
