@@ -13,9 +13,11 @@ login : git
 password : git
 (mettre les login et password en minuscule)
 
-
 => notes de cours vont être partagées sur github (ça fait partie du cours)
 
 => notes de cours :
-https://github.com/webdevproformation/git-d-mars-2023
+https://github.com/webdevproformation/git-d-mars-2023 xxx (pb chez Microsoft)
 
+https://gitlab.com/w825/git-d-mars-2023 (nouveau dépôt)
+
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
