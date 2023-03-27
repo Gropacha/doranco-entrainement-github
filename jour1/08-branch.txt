@@ -22,10 +22,14 @@ git commit
 
 0------------------------------------------
 Vérifier que l'ensemble des fichiers soient commit sur la branch principal
+git add --all
+git commit -m "finaliser branch"
+git status => nothing to commit
 
 1------------------------------------------
  git branch menu // permet de créer la branch menu (monde parallèle à la branch principale)
  git checkout menu // permet de se déplacer de la branch principale vers la branch menu
+git branch // pour  savoir sur quelle branch je me trouve
 
 2----------------------------------------------
  travailler
