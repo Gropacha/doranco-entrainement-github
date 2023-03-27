@@ -35,6 +35,11 @@ git branch // pour  savoir sur quelle branch je me trouve
  travailler
  git add et git commit sur cette branch
 
+ avant de revenir sur la branch principal
+ il faut au préalable que tous les fichiers sur la branch soient
+ 100% staged
+ 
+
 3a--------------------------------------------
  si on est content
  git checkout master (ou main) // revenir sur la branch principale
@@ -45,3 +50,9 @@ git branch // pour  savoir sur quelle branch je me trouve
  si on n'est pas content
  git checkout master (ou main) // revenir sur la branch principale
  git branch -D menu // supprimer la branch menu
+
+
+ REMARQUE
+
+ pour renommer la branch actuelle
+ git branch -M menu-principal
