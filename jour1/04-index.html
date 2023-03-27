@@ -86,8 +86,62 @@
         attention git est un outil de VERSIONNING incrémental (stocker que les modifications)
         et non tout le fichier
 
+4 commandes
+git init => exécuté 1 seule fois lors de la création du projet => crée repository (dépôt)
+
+// travailler => écrire dans un ou plusieurs fichiers (par ex: ajout de fonctions)
+
+git add --all => plusieurs fois
+git commit -m "......." => plusieurs fois
+// 2 commandes l'une après l'autre
+// créer COMMIT sauvegarde de version // sauvegarde INCREMENTALE
+
+gitk => outil tableau de bord => réponse aux QUI / QUAND / QUOI / POURQUOI
+
+Quand on travaille avec Git et Visual Studio Code
+Dans VSC => annotation dans l'explorer
+
+Nous venons de modifier 04-index.html => M
+et créer un nouveau fichier 05-presentation.html => U
+
+les lettres M et U, correspondent aux états des documents par rapport au repository
+CMD : git status ENTER
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   jour1/04-index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        jour1/05-presentation.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CMD git status : permet de connaître l'écart entre le repository et le projet
+
+=>04-index.html => Changes not staged
+=>05-presentation.html => Untracked files
++ conseil pour changer leur état
+
+=> changer l'état de Untracked(U) à Unstaged(A)
+il faut taper la CMD git add jour1/05-presentation.html
+Unstaged(A) (il est sélectionné et prêt pour être commité dans le repo)
+Unstaged(A) à Staged(rien) (copie de votre fichier === copie incrémentale dans le repo)
+
+Nouveau fichier U => A => rien
+Untracked U
+git add
+Unstaged A
+git commit
+Staged rien
+modification des fichiers
+Modified M
+git add jour1/04-index.html
 
 
-     -->
+-->
+
+
   </body>
 </html>
