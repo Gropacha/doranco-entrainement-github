@@ -7,4 +7,7 @@ CLI => Commande Line Interface
 
 Dans vsc, l'onglet source control
 
-les '+' correspond à la commande 'add'
+les '+' correspond à la commande 'add' => prépare pour un commit
+
+les '-' correspond à la commande 'restore' => enlève à la liste des fichiers à commit
+
