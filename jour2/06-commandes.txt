@@ -1,0 +1,7 @@
+git branch => liste de toutes les branches déjà créées
+git branch <nom> => créer une nouvelle branches
+git branch -d <nom> => supprimer une branche si elle a été fusionnée ou conflit résolu
+git branch -D <nom> => force la suppression de la branche
+
+
+git branch --help
