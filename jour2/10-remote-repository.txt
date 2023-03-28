@@ -1,0 +1,28 @@
+remote => distant
+repository => dépôt
+
+on va vouloir envoyer les fichiers sources + le dossier .git(repository local)
+
+il existe des sites internet qui peut recevoir ce code et le mettre en forme
+
+=> github => 4 juin 2018 acheté par Microsoft
+=> gitlab
+=> bitbucket
+
+=> https://bitbucket.org
+
+git init => sur le site internet : nom du projet...
+
+2 commandes nous sont donnés par le site internet
+
+git remote add origin https://Gropacha@bitbucket.org/demosdf/demo.git
+
+on voudrait connecter les 2 git (local ===> remote)
+
+git push -u origin main
+
+origin (alias) fait référence à l'url
+
+------------------------------
+bitbucket
+...annotate edit rename etc...
