@@ -11,3 +11,10 @@ les '+' correspond à la commande 'add' => prépare pour un commit
 
 les '-' correspond à la commande 'restore' => enlève à la liste des fichiers à commit
 
+----------------------------------
+
+créer des branch facilement sur Visual Studio (bouton en bas à gauche)
+
+git branch VisualStudio
+git checkout VisualStudio
+
