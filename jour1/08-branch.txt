@@ -46,6 +46,14 @@ git branch // pour  savoir sur quelle branch je me trouve
  git merge menu // fusionner les 2 branch
  git branch -d menu // supprimer la branch menu
 
+ $ git merge menu
+Updating a20a497..154d5b0
+Fast-forward
+ jour1/08-branch.txt       | 17 ++++++++++++++++-
+ jour1/09-autre-fichier.js |  6 ++++++
+ 2 files changed, 22 insertions(+), 1 deletion(-)
+ create mode 100644 jour1/09-autre-fichier.js
+
 3b--------------------------------------------
  si on n'est pas content
  git checkout master (ou main) // revenir sur la branch principale
