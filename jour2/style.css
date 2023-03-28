@@ -1,20 +1,18 @@
 * {
-margin : 0;
-padding:0;
-box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav ul {
-    display:flex;
+  display: flex;
+  justify-content: space-around;
 }
 
-nav {
-text-decoration: none;
-flex-direction:row;
-
+nav ul li {
+  text-decoration: none;
+  list-style-type: none;
 }
-nav a, nav li {
-text-decoration: none;
-
+nav a {
+  text-decoration: none;
 }
