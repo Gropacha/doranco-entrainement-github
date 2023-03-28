@@ -27,3 +27,10 @@ git checkout <nom>
 
 git checkout -b <nom> créer et se déplacer sur une nouvelle branche
 
+pause de 14h35
+
+suite => utiliser un repository distant
+=> gitbucket / github / gitlab
+
+
+
