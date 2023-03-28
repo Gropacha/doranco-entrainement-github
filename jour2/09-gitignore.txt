@@ -5,6 +5,6 @@ possibilité de créer un fichier .gitignore
 => liste le ou les fichiers / le ou les dossiers, qui ne doivent pas être incorporés dans le repository
 
 ce fichier donne des instructions à la commande git
-en général les fichiers que l'on ne veut pas versionner, par exemple des images
+en général les fichiers que l'on ne veut pas versionner, par exemple des images, les vidéos ou les fichiers que l'on ne vas plus modifier par la suite
 
 le fichier .gitignore peut être créé n'importe où dans le projet, mais en général on le met à la racine au projet
