@@ -1,0 +1,10 @@
+jusqu'à maintenant nous avons utilisé les commandes directement dans le terminal
+
+il existe aussi de nombreux outils pour réaliser les commandes en faisant des clics
+
+GUI => Graphical User Interface
+CLI => Commande Line Interface
+
+Dans vsc, l'onglet source control
+
+les '+' correspond à la commande 'add'
