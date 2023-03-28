@@ -1,0 +1,20 @@
+* {
+margin : 0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+nav ul {
+    display:flex;
+}
+
+nav {
+text-decoration: none;
+flex-direction:row;
+
+}
+nav a, nav li {
+text-decoration: none;
+
+}
