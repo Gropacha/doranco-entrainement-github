@@ -1,1 +1,2 @@
 créer à partir de github et essai de fetch du remote vers le local
+bonjour tout le monde
