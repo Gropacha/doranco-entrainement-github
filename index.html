@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compteur de clic</title>
+    <style>
+      h1 {
+        height: 300px;
+        width: 900px;
+        margin: 0 auto;
+        background-color: coral;
+        color: brown;
+      }
+    </style>
+    <script>
+      window.addEventListener("load", function () {
+        let count = 0;
+        const compteurHtml = document.querySelector("h1");
+        compteurHtml.addEventListener("click", function () {
+          compteurHtml.innerHTML = `Vous avez cliqué ${++count} fois sur cette bannière`;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Cliquez sur moi !</h1>
+  </body>
+</html>

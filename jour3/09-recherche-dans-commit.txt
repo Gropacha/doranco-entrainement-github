@@ -1,0 +1,28 @@
+git log --before="2023-2-1"
+git log --after="2023-2-1"
+git log --grep="récupération"
+git log --author="nom auteur"
+git log --README.modifications
+
+présentation de github : site internet qui permet de gérer les remot et le travail à plusieurs
+
+pull request
+issues
+commentaires
+
+ACTION => (pipeline)
+CI / CD
+=> push un projet sur un github => réaliser des tests => déployement sur un herbergement
+
+PROJECTS (analogue à https://trello.com/fr)
+=> gestion de projet / tache / livrable / date de livraison / importance => affecter les personnes
+
+WIKI-git => créer un mode d'emploi dédié à l'explication de votre projet
+=> fichier readme.md
+
+SECURITY
+login / password : directement dans le code source
+
+INSIGHTS : statistique
+
+SETTINGS : 
