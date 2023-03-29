@@ -42,3 +42,5 @@ git push
 
 pas besoin de faire la commande git remote (c'est enregistré )
 pas besoin de resaisir les identifiants (c'est enregistré)
+
+essai stash

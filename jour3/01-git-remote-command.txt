@@ -28,3 +28,4 @@ git push -u nom_du_remote nom_de_la_branche
 
 je veux récupérer des informations depuis un remote distant
 
+essai 2 stash
