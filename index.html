@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Compteur de clic</title>
     <style>
+      .container {
+        display: flex;
+      }
       h1 {
         height: 300px;
         width: 900px;
         margin: 0 auto;
         background-color: coral;
         color: brown;
+        justify-content: center;
+        flex-direction: center;
+        justify-self: center;
       }
     </style>
     <script>
@@ -25,6 +31,8 @@
     </script>
   </head>
   <body>
-    <h1>Cliquez sur moi !</h1>
+    <div class="container">
+      <h1>Cliquez sur moi !</h1>
+    </div>
   </body>
 </html>
