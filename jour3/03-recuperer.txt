@@ -9,3 +9,24 @@ git fetch => récupérer seulement les informations
 git clone => si vous voulez récupérer un projet distant intégralement
             (vous n'avez aucun fichier sourcee en local)
             => source (fichiers de code) et .git
+
+git pull nom_du_remote nom_de_la_branche
+
+git fetch nom_du_remote nom_de_la_branche
+suivi de : git merge nom_du_remote/nom_de_la_branche
+
+----------------------------
+dernière commande
+projet à 100% nouveau (je n'ai pas en local de dossier /.git)
+et je veux le récupérer à 100%
+
+pour un remote public
+
+=> git clone url_du_remote nom_du_dossier
+
+importer/décompresser/nom_du_dossier
+
+----------------------------
+
+pour un remote privé
+

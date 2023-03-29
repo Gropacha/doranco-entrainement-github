@@ -1,0 +1,25 @@
+je suis sur github
+
+=> je trouve un projet sympathique
+=> j'aimerai pouvoir l'utiliser => git clone
+=> je constate des améliorations
+=> j'aimerai intervenir et aider le créateur du projet
+=> même si le projet est public
+=> je ne peux pas écrire dans ce projet
+=> je peux lui proposer d'ajouter un code même si je ne
+suis pas dans le groupe de travail
+
+
+=> fork (fourchette en anglais)
+
+=> copier le projet dans mon espace où j'ai les droits
+
+git clone un_remote
+git branch amelioration
+git checkout amelioration
+modifier quelques fichiers
+git add --all
+git commit -m "modification"
+git push amelioration
+
+retour sur github
