@@ -29,3 +29,5 @@ vider le stash
 retour sur la branch principale
 merge et supprimer la branch exo4
 
+commande fusionner
+git commit -a -m "commande fusionnée"
