@@ -1,0 +1,31 @@
+git stash => permet de cacher tout le code que vous avez écrit pour le stocker dans une mémoire hors des commits / hors des branch
+
+stash en anglais : cachette (une planque)
+
+à faire avant les add et commits
+
+git stash save "nom" => sauvegarder le code non commit dans une stash
+
+git stash list => liste de toutes les stash
+
+git stash apply stash(0) => prendre le contenu de la stash et copier dans la branch en cours (sans supprimer la stash)
+
+git stash pop => prendre le dernier contenu stash et le supprimer
+
+git stash drop stash(3) => supprimer la stash numéro 3
+
+git stash clear => supprimer toutes les stash
+
+//// lorsque l'on travaille et que l'on se trompe de branch
+//// git checkout -b nouvelle_branche
+
+cas pratique :
+dans la branch main => modifier 3 fichiers ajoutant du code / supprimant du code 
+stasher ces modifications 
+créer une branch exo4 et se positionner dessus 
+récupérer les informations dans le stash cette branch 
+add et commit 
+vider le stash 
+retour sur la branch principale
+merge et supprimer la branch exo4
+

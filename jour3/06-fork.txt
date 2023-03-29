@@ -23,3 +23,26 @@ git commit -m "modification"
 git push amelioration
 
 retour sur github
+
+=> fork (fourchette)
+=> copier le projet => dans mon espace (dans lequel j'ai tous les droits )
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. 
+
+git clone <mon url/projet jacques andre>
+git branch suggestion
+git checkout suggestion 
+modifier un fichier ou deux 
+git add --all
+git commit -m "proposition JA"
+git push --set-upstream origin suggestion
+
+=> sur github (dans mon projet => pull request )
+
+=> accepter dans son compte (et les modifications réalisées vont 
+être merge dans le site internet sur github)
+
+cas pratique 
+pouvez vous me faire des pull request sur le dépôt public 
+suivant :
+
+https://github.com/webdevproformation/demo-github
