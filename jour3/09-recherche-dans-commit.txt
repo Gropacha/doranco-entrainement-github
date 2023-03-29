@@ -26,3 +26,7 @@ login / password : directement dans le code source
 INSIGHTS : statistique
 
 SETTINGS : 
+
+https://antonydruon.github.io/Calculatrice.JS/
+
+
