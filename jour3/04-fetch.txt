@@ -1,1 +1,7 @@
 créer à partir de github et essai de fetch du remote vers le local
+
+bonjour tout le monde
+
+
+attention aux ; à la fin des functions fléchées
+
