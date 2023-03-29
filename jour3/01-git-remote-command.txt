@@ -1,0 +1,17 @@
+git remote => établir un lien avec un dépôt distant
+
+git remote add origin <url bitbucket>
+git remote add gitlab <url gitlab>
+git remote add github <url github>
+
+-------------------------------------------
+il est aussi de les supprimer les liens
+
+git remote remove origin
+git remote remove gitlab
+
+-------------------------------------------
+Je veux aussi connaître la liste des liens
+
+git remote -v
+
