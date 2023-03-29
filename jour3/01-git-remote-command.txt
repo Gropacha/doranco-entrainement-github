@@ -15,3 +15,11 @@ Je veux aussi connaître la liste des liens
 
 git remote -v
 
+------------------------------------------
+si vous avez un seul remote
+git push (il va ajouter automatiquement le nom du remote et de la branch)
+
+si vous avez plusieurs remote
+il faudra préciser le nom du remote et de la branch
+
+-------------------------------------------git
