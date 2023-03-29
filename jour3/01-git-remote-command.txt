@@ -22,4 +22,9 @@ git push (il va ajouter automatiquement le nom du remote et de la branch)
 si vous avez plusieurs remote
 il faudra préciser le nom du remote et de la branch
 
--------------------------------------------git
+git push -u nom_du_remote nom_de_la_branche
+
+--------------------------------------------
+
+je veux récupérer des informations depuis un remote distant
+
