@@ -60,3 +60,63 @@ pour chaque cocktail du tableau récupéré :
     <img src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg" alt="">
     <p>Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.</p>
 </article>
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+vous travaillez en équipe plus de 3 développeurs sur un projet 
+
+très forte chance que deux personnes travaillent sur le même fichier sur la même ligne 
+conflit au sens de git 
+
+règle pour nommer les branchs 
+
+2 développeurs => principal main et master 
+2 développeurs => fonctionnalité malik/page-contact // dev/page-cgv
+
+=> se mettre d'accord sur COMMENT on appelle les branch / comment on coupe les branch ?? 
+
+git flow (macro commande)
+git flow => commande à saisir et méthode de travail 
+git flow init (créer le dépot .git caché - repository local mais en + principal main + questions en + nom des branch prefix des branch pour le projet  )
+
+une question ????? vous m'entendez ???
+=> créer un nouveau projet pour tester git flow 
+=> le projet encours => il va juste service pour prendre des notes 
+
+vous m'entendez ?? => je restart @ tout suite 
+
+=> ici je prends des notes 
+=> je vais créer un autre projet pour vous présenter git flow 
+
+
+créer un dossier flow
+créer un fichier index.html avec du html 
+
+git init 
+git flow init => Enter 
+    créer renommer la branch principal (master)
+    créer une branch develop 
+    stocké en mémoire préfix pour des futures branch 
+    checkout sur develop
+gitk --all 
+rdv 10h42 bon café !!!
+
+=> je veux ajouter un menu => feature =>
+travail + add + commit 
+branch + checkout => git flow feature start menu 
+ + travail + add + commit +
+ checkout develop + merge + branch -d feature/menu => git flow feature finish menu 
+
+git flow feature start menu 
+git flow feature finish menu 
+
+Cas pratique :
+pouvez vous ajouter une nouvelle feature à votre projet  => ajax
+
+ajouter un bouton dans votre page web 
+lorsque vous cliquer dessus => requête ajax qui va appeler une API (retourne une liste de pays)
+afficher la liste des pays SOUS le bouton 
+utiliser jquery pour réaliser ce travail 
+
+=> clore la branch feature/ajax 
+
+git flow feature start ajax

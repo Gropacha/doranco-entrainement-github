@@ -6,4 +6,9 @@ si vous devez repenser / recoder la fonctionnalités => feature
 
 correction RAPIDE hot URGENTE
 
-git flow hotfix start menu
+git flow hotfix start nom_du_hotfix
+
+git add et git commit des modifications
+
+puis : git flow hotfix finish nom_du_hotfix
+

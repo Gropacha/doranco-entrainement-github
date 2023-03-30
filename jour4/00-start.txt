@@ -1,10 +1,55 @@
-différentes manières de selectionner tous les fichiers en préparation d'un commit
+https://formation.webdevpro.net/git (saisir directement dans la barre d'adresse pas dans Google)
+login : git
+password : git
+(mettre les login et password en minuscule)
+
+notes de cours :
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/
+
+
+
+git add --all 
+j'utilise plus git add . 
+avant 
+git add --all
+git add -A 
+=> quelque soit le cas de figure => tout est sélectionner
+
+git add * => * TOUT en SQL MAIS attention 
+            en fonction du shell dans le quel on utilise cette commande * peut ommettre
+            certain fichier 
+            si cmd et un fichier qui commence par .env à la racine et à la racine  git add * 
+            si gitbash git add *
+git add . 
+=> quelque soit le cas de figure => tout est sélectionner
+
+----------------
 
 git add --all
-git add -A
-git add * => * tout en SQL mais attention en fonction du terminal dans lequel on l'utilise cette commande * peut ommettre certain fichier sur cmd et un fichier qui commence par .env et qui est à la racine du dépôt
+git commit -m "..."
 
+git commit -a -m "...." OK uniquement pour les fichiers Modifified (fichier Untracked ne sont add et commit )
 
-git add . => tout
+git commit --all -m "...." => ????
+git commit -am "...."  => ????
 
+git commit -A -m "...." => non
+git commit -m -a "...." => non
+
+une modification 
+
+----------------------
+
+github pages => permet de mettre en ligne des pages web statique (css / html et js )
+
+=> branch spéciale => non n'importe quelle branch 
+=> combien de temps ? => 2 min max sinon pb 
+=> il faut un fichier index.html à la racine d'une branch
+
+=> 1 créer un fichier index.html à la racine de mon projet  sur main 
+=> 2 push => dépot distant
+
+git flow 
+CI CD => Continus Integration / Continus Delivery 
+(Coder non stop et déployer non stop  sans arrêt )
 
