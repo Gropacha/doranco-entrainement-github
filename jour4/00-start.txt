@@ -1,0 +1,10 @@
+différentes manières de selectionner tous les fichiers en préparation d'un commit
+
+git add --all
+git add -A
+git add * => * tout en SQL mais attention en fonction du terminal dans lequel on l'utilise cette commande * peut ommettre certain fichier sur cmd et un fichier qui commence par .env et qui est à la racine du dépôt
+
+
+git add . => tout
+
+

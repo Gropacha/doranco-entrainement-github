@@ -1,0 +1,6 @@
+git flow (flux de travail)
+
+commande qui vont permettre d'organiser le travail sur un gros projet
+
+créer des branches et pouvoir passer d'une branche à l'autre facilement
+

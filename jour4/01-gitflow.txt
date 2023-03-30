@@ -1,0 +1,19 @@
+Travail en équipe (plus de 3 développeurs)
+
+très forte chance que 2 personnes travaillent sur le même fichier sur la même ligne ce qui entraîne des conflits sur le git
+
+
+règle pour les nommer les branch
+
+2 développeurs => principal main et master
+
+2 développeurs => fonctionnalité prénom/fonctionnalité ou dev/fonctionnalité
+
+=> se mettre d'accord sur COMMENT on appelle les branch / et comment on les coupent (merge)
+
+SOLUTIONS (macro commande) : git flow
+
+git flow init (créer le dépôt .git caché = repository local, mais en + principal s'appelle main, et préfixes des futures branch)
+
+=> créer un nouveau projet pour tester git flow
+=> le projet en cours restera pour les notes de cours
