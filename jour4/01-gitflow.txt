@@ -17,3 +17,46 @@ git flow init (créer le dépôt .git caché = repository local, mais en + princ
 
 => créer un nouveau projet pour tester git flow
 => le projet en cours restera pour les notes de cours
+
+=> je veux ajouter un menu => feature
+travail + add + commit
+branch + checkout + travail + add + commit + merge
+
+/////=> git flow feature start menu
+
+
+travail add commit
+
+//////=> git flow feature finish menu
+
+exo jeudi matin:
+pouvez vous ajouter une nouvelle feature "ajax" à votre projet
+
+ajouter un bouton dans votre page web, lorsque l'on clique dessus request ajax qui va appeler une API liste des pays sous le bouton, utiliser jquery pour réaliser ce travail
+=> à la fin, clore la branch/ajax
+
+jquery.com
+
+api.jquery.com
+
+https://restcountries.com
+https://restcountries.com/v3.1/all
+
+2ème exo jeudi matin:
+
+dans le fichier index.html 
+
+ajouter un autre bouton sur lequel vous allez cliquer :
+
+appeler l'API 
+https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+
+retourne un tableau de cocktail à base de "margarita" (via ajax)
+
+afficher sous le bouton le code suivant :
+pour chaque cocktail du tableau récupéré : 
+<article>
+    <h2>Margarita</h2>
+    <img src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg" alt="">
+    <p>Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.</p>
+</article>
