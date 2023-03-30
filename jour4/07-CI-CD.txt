@@ -1,0 +1,37 @@
+CI CD
+continuous integration continous deploiement
+
+Intégration et déploiement continus
+
+Nouvelle manière de travailler dans laquelle on va impliquer les équipes de développeurs et les équipes d'exploitations (ingénieurs en charge des infrastructures : hardware)
+
+Pour faciliter le travail de ces deux équipes => CI CD
+
+Ensemble de traitements que l'on va mettre en place qui va permettre de clarifier le transfert du code d'une équipe à l'autre
+
+=> DevOps connaître toute la chaîne de production au déploiement
+=> idée => code => test => créer des machines stockées => diffuser => client utilisation
+
+=> durée entre l'idée et la livraison client : Time To Market
+
+=> intégration Hell => Infernal => réduire l'intégration Hell
+article de red hat : voir polycopié de Malik https://www.redhat.com/fr/topics/devops/what-is-ci-cd
+
+=> pipeline de déploiement
+
+=> tout seul
+=> travailler sur votre ordinateur => finir votre code
+=> FileZilla => code dans l'ordinateur vers l'hébergement
+=> test pour fiabiliser le transfert
+=> hébergement fiable (payant OVH)
+
+=> si vous voulez tester la technologie => gratuit MAIS n° Carte de Bleue requis
+
+=> FileZilla (gratuit)
+=> Windows
+=> ligne de commande : scp rsync
+=> git push
+
+=> installer nodejs (js côté serveur)
+
+

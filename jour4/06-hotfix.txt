@@ -1,0 +1,9 @@
+hotfix => nom d'une branche pour effectuer une petite correction (fix) directement depuis la branch principale du projet
+
+correction rapide => si le bug est important, fix bloquer le code qui ne marche pas
+
+si vous devez repenser / recoder la fonctionnalités => feature
+
+correction RAPIDE hot URGENTE
+
+git flow hotfix start menu
